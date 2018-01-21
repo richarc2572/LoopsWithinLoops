@@ -3,8 +3,8 @@ This project demonstrates NESTED LOOPS (i.e., loops within loops)
 in the context of TWO-DIMENSIONAL GRAPHICS.
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         their colleagues and Clayton Richards.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
 
@@ -54,8 +54,9 @@ def nested_loops_in_graphics_example():
     triangle_of_circles(window, starting_circle.clone(), 8)
     window.close_on_mouse_click()
 
+
 # ----------------------------------------------------------------------
-# TODO: 2.
+# DONE: 2.
 #  *** Unless your instructor directs you otherwise,
 #      watch the video
 #          nested_loops_in_GRAPHICS.mp4
@@ -108,7 +109,7 @@ def rectangle_of_circles(window, circle, m, n):
 
 
 # ----------------------------------------------------------------------
-# TODO: 3.
+# DONE: 3.
 #  *** Unless your instructor directs you otherwise,
 #      watch the video
 #          nested_loops_in_GRAPHICS.mp4
